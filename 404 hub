@@ -1,0 +1,1108 @@
+local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/V3XZz/Orion-Lib-Moded/main/Colored%20Orion%20Lib"))();
+local Window = OrionLib:MakeWindow({Name = "404 Hub", HidePremium = false, IntroEnabled = true, IntroText = "404 Hub", SaveConfig = true, ConfigFolder = "OrionTest"})
+
+--[[
+Name = <string> - The name of the UI.
+HidePremium = <bool> - Whether or not the user details shows Premium status or not.
+SaveConfig = <bool> - Toggles the config saving in the UI.
+ConfigFolder = <string> - The name of the folder where the configs are saved.
+IntroEnabled = <bool> - Whether or not to show the intro animation.
+IntroText = <string> - Text to show in the intro animation.
+IntroIcon = <string> - URL to the image you want to use in the intro animation.
+Icon = <string> - URL to the image you want displayed on the window.
+CloseCallback = <function> - Function to execute when the window is closed.
+]]
+OrionLib:MakeNotification({
+	Name = "Made by ExploitEdge",
+	Content = " Made by venuznuz",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+--[[
+Title = <string> - The title of the notification.
+Content = <string> - The content of the notification.
+Image = <string> - The icon of the notification.
+Time = <number> - The duration of the notfication.
+]]
+local Tab = Window:MakeTab({
+	Name = "Admins⚡",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+local Section = Tab:AddSection({
+    Name = "Admin Scripts⚡"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "Better Infinite Yield",
+	Callback = function()
+                   loadstring(game:HttpGet('https://raw.githubusercontent.com/fuckusfm/infiniteyield-reborn/master/source', true))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+    Name = "Infinite yield",
+    Callback = function()
+              loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+      end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+    Name = "Nameless Admin",
+    Callback = function()
+              loadstring(game:HttpGet('https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source'))()
+      end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+    Name = "fates admin",
+    Callback = function()
+              loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+      end    
+})
+local Tab = Window:MakeTab({
+	Name = "Games🎮",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+local Section = Tab:AddSection({
+	Name = "Brookhaven RP🏘️"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "R4D GUI",
+	Callback = function()
+      		--Brookhaven R4D 
+--By M1zz
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script'))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "JUL HUB",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JulHubz/JulHub/main/JulHub"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "REDZ HUB",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/REDzHUB/main/REDzHUB"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "IMPERIAL HUB",
+	Callback = function()      		
+              loadstring(game:HttpGet(("https://raw.githubusercontent.com/Trev0rZ/LoaderM/main/ImperialHub-Working.lua"),true))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Trevor4 Hub",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/Trev0rZ/Loader/main/Trevo4Hub%20Working.lua'),true))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Salzar Hub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/err0r129/SalazarHubByTeamOsiris/main/Hades.lua'))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "PrisonLife👮‍♂️"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "PrisonWare V.1.3",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))();
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "syniX(Beta)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/RayzMd/SyniX/main/Beta"))()
+      end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "TigerAdmin",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/dalloc2/Roblox/main/TigerAdmin.lua",true))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "X-Rawnder",
+	Callback = function()
+      		loadstring(game:HttpGet("https://bit.ly/x-Rawnder"))();
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Section = Tab:AddSection({
+	Name = "Natural Disater🌋"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "Natural disaster Hub#1",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/9NLK7/93qjoadnlaknwldk/main/main'))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Natural disater Hub#2",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringUjHI6RQpz2o8", true))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "RochipsPanel",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://pastefy.app/yumu499O/raw'),true))()
+  	end    
+})
+local Section = Tab:AddSection({
+	Name = "Work At Pizza Place🍕"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "Pizza Factory GUI",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/xQTtE6D9"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Unamed GUI",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/incognitototo/sda/main/dwa.lua", true))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Unamed Multi GUI",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxHackingProject/HPHub/main/HPHub.lua"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Section = Tab:AddSection({
+	Name = "Pet Simulator 99🐈"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "Project WD",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Tests/main/wd_Arise/loader.lua"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Speed Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Unamed Hub Script",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/SpbitV2/Ps99Spbit/main/KoolPs99_Script"))()
+  	end    
+})
+local Section = Tab:AddSection({
+	Name = "Build A boat for a treasure⛵"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "Butter Hub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/Butterisgood/Butter/main/Root2.lua'))("")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Demonic Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Prosexy/Demonic-HUB-V2/main/DemonicHub_V2.lua", true))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Ruby Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ASkca12/ScriptApoloHub/main/Main.lua"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Section = Tab:AddSection({
+	Name = "Blade Ball🧶"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "Auto Parry",
+	Callback = function()
+      		loadstring(game:HttpGet("https://scriptblox.com/raw/UPD-Blade-Ball-op-autoparry-with-visualizer-8652"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "FFJ Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/autoparry.lua"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Baka Hub( key : scripthubopfrfr )",
+	Callback = function()
+      		Loadstring(game:Httpget("https://raw.githubusercontent.com/bankboi001fr/bankboi001fr/main/BakaHubBB.lua"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Section = Tab:AddSection({
+	Name = "Survive The Killer🔪"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "ChairWare Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Milan08Studio/ChairWare/main/main.lua"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Kiroft Hub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/Kiroftt/Survive-The-Killer/main/Simple'))();
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Section = Tab:AddSection({
+	Name = "Murder Mystery 2 🔫"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "Yarhm GUI",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Syhmpony Hub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/ThatSick/ArrayField/main/SymphonyHub.lua'))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Eclipse Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://egorikusa.space/7afaccac82a27ace06fa7044.lua", true))()
+  	end    
+})
+local Section = Tab:AddSection({
+	Name = "The Strongest Battlegrounds👊"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "NS Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/HenSeu87PofghYT/ALL-IN-ONE/main/NSHUBV2"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Nobulem Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/NBLMSCRIPTS/NBLMSCRIPTHUB/main/SKIBIDI"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Unamed TSBG Script",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Hunt/main/Strongest"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Section = Tab:AddSection({
+	Name = "GYM League🏋️"
+})
+
+Tab:AddButton({
+	Name = "Ather Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Athergaming/Roblox-Gym-League-Script/main/AtherHub%20Gym%20League%20V1_5.lua"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Reaper Hub",
+	Callback = function()
+      		loadstring((http.request{Url="https://reaperscripts.com/loader?l=1"}).Body,"0zek8y2bld7.qowl6c7o~1")();
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Speed Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Script-Games/main/Gym%20League.lua"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Section = Tab:AddSection({
+	Name = "BloxFruit🌊"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "Damon Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/daucobonhi/damon/main/Damonvipbro.lua"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Summer Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/EvenZ1/EvenZYeuEm/main/SummerMain"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Zuesz Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/KhanhTranVan/Guest/main/thankforbuying"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Section = Tab:AddSection({
+	Name = "Meme Sea 🌊"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
+Tab:AddButton({
+	Name = "Yuto Hub",
+	Callback = function()
+                loadstring(game:HttpGet(('https://raw.githubusercontent.com/Binintrozza/yutv2e/main/Yutohub')))()
+  	end   
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Elgato Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/TranVanBao1411/ElgatoHub/main/Loader.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Redz Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/MemeSea/main/Source.lua"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+local Tab = Window:MakeTab({
+	Name = "Aiming n PVPs⚔️🎯",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+local Section = Tab:AddSection({
+	Name = "Aiming🎯"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "Silent Aim(Owl HUB)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Aim Bot",
+	Callback = function()
+      		local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://raw.githubusercontent.com/DarkCheatClientTeam/Files/main/Aimbot.lua";c(a and b,"Not Supported")a(b({Url=e,Headers={["User-Agent"]="DarkCheatClientSystem"}}).Body)()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Section = Tab:AddSection({
+	Name = "PVPs⚔️"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "Sword Reach",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastefy.app/lJvj1Wsu/raw"))()
+        end    
+})
+
+Tab:AddButton({
+	Name = "Sword Fighting Botz(Press X Toggle)",
+	Callback = function()
+      		-- press x to turn on
+               loadstring(game:HttpGet('https://raw.githubusercontent.com/yeerma/1/main/bot'))()
+  	end    
+})
+local Section = Tab:AddSection({
+	Name = "Hitbox👤◼️"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "Hitbox Expander",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/UjcfSzdH"))()
+  	end    
+})
+local Tab = Window:MakeTab({
+    Name = "Animations👤",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+local Section = Tab:AddSection({
+    Name = "R6 Reanimate Script By GENESIS FE"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+    Name = "FE Gale Fighter(NEED HATS)",
+    Callback = function()
+              loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Gale%20Fighter"))()
+      end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+    Name = "FE Goner(NEED HATS)",
+    Callback = function()
+              loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Goner"))()
+      end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+    Name = "FE Neptunian V(NEED HATS)",
+    Callback = function()
+              loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Neptunian%20V"))()
+      end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+    Name = "FE Krystal Dance(NEED HATS)",
+    Callback = function()
+              loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Krystal%20Dance"))()
+      end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Section = Tab:AddSection({
+    Name = "R15 Emote"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+    Name = "Fe All Emote",
+    Callback = function()
+              loadstring(game:HttpGetAsync("https://gist.githubusercontent.com/RedZenXYZ/3da6af1961efa275de6c3c2a6dbace03/raw/bb027f99cec0ea48ef9c5eabfb9116ddff20633d/FE%2520Emotes%2520Gui"))()
+      end    
+})
+local Tab = Window:MakeTab({
+	Name = "Universal Scripts🌐",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+local Section = Tab:AddSection({
+	Name = "Keyboard⌨️"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "Mobile Keyboard",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/GGH52lan/GGH52lan/main/keyboard.txt"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Section = Tab:AddSection({
+	Name = "Remote Spy"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "Turtle Spy",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/BDhSQqUU", true))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Simple Spy",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpySource.lua"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Section = Tab:AddSection({
+	Name = "Backdoors🚪👾"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "Backdoor.exe",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "FraktureSS",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/L1ghtingBolt/FraktureSS/master/unobfuscated.lua"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Section = Tab:AddSection({
+	Name = "Fling🍃"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "WalkFling",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Click Fling",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/obf_5wpM7bBcOPspmX7lQ3m75SrYNWqxZ858ai3tJdEAId6jSI05IOUB224FQ0VSAswH.lua.txt'),true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Fling GUI",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/fgasfga/Fe-Fling-GUI-For-roblox/main/Main.lua",true))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Section = Tab:AddSection({
+	Name = "LocalPlayer👤"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "Fly",
+	Callback = function()
+      		loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Vehicle Fly",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/MHE1cbWF"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Section = Tab:AddSection({
+	Name = "Graphics🗺️"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "PShade",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://pastefy.app/xXkUxA0P/raw'),true))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Section = Tab:AddSection({
+	Name = "Script Searcher🔍"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "Script Searcher",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/ScriptSearcher"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Tab = Window:MakeTab({
+	Name = "Universal Hubs🌐",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+Tab:AddButton({
+	Name = "Moon UI",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/IlikeyocutgHAH/MoonUI-v13-102-SCRIPTS/main/MoonUI%20v13!"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Ghost Hub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Multi Scripter-X",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerScripter/Multi-Scripter-X/main/loader"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Sky Hub",
+	Callback = function()
+      		--[[
+
+Sky Hub
+
+By Sky/dsgdfs
+
+games it supports Da Hood, Arsenal, Tower of Hell, KAT!, Fencing,
+Work At A Pizza Place, VR Hands, Adopt Me, Jailbreak, Prison Life,
+Build A Boat For Treasure, Gorilla Tag Professional, Murder Mystery 2, Blox fruits, Counter Blox, Mic Up, Neighbors, Natural Diaster Survival, Ro-Ghoul, Blade Ball, Pet Simulator X,
+Pet Simulator 99, Legends of Speed, BrookHaven RP, Bedwars, Chaos, Ninja Legends, Bayside High School, Big PaintBall, Big PaintBall 2, Muscle Legends, Road to Grambys, Bloxburg, Cursed Sea, Doors,
+Hide and Seek Extreme, Life in Paradise, Adopt and Raise a Baby, Zombie Attack, Super Simon Says, Life Sentence and Universal.
+40+ games (Including some obbys)
+
+Rebuilt On IllusionHub
+
+Last Updated 4/16/2024
+
+Added cmd admin
+
+Library by Lua_u
+
+executor ui in fencing and universal made by espresso0069
+
+Road to Gramby scripts by Lua_u
+
+Rainbow Sunlock by therealxora https://discord.gg/iosexploiters
+
+IF YOU WANT ME TO ADD A GAME OR REPORT A BUG JOIN MY DISCORD SERVER OR DM ME
+
+https://discord.gg/xwy5Cu62Vw
+
+]]--
+loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/main/SkyHub.txt"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "GigaChad Hub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/OWJBWKQLAISH/GigaChad-Hub/main/Version%20V3.5'))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Equinox Hub",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://pastebin.com/raw/wzB1Qh78'),true))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Universal FE ScriptHub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script'))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Juanko Universal ScriptHub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/d5BS5qiX"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
